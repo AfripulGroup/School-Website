@@ -1,0 +1,113 @@
+.announcement-news {
+   padding: 3rem 2rem;
+   background-color: #f9fafc;
+}
+
+.announcement-news__title {
+   text-align: center;
+   font-size: 2rem;
+   color: #004c97;
+   margin-bottom: 2rem;
+}
+
+.announcement-news__list {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2rem;
+}
+
+.announcement-news__card {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1.5rem;
+   padding: 1.5rem;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   background: #fff;
+   overflow: hidden;
+   transform: scale(1);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.announcement-news__card.reverse {
+   flex-direction: row-reverse;
+}
+
+.announcement-news__card:hover {
+   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.announcement-news__image img {
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.announcement-news__content {
+   flex: 1;
+}
+
+.announcement-news__content h3 {
+   font-size: 1.5rem;
+   color: #004c97;
+   margin-bottom: 0.5rem;
+}
+
+.announcement-news__content p {
+   font-size: 1rem;
+   color: #555;
+   margin-bottom: 1rem;
+}
+
+.read-more-btn {
+   display: inline-block;
+   background-color: #ffcc00;
+   color: #004c97;
+   font-size: 1rem;
+   padding: 0.5rem 1rem;
+   border: none;
+   border-radius: 5px;
+   text-decoration: none;
+   transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+   background-color: #ffd633;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+   .announcement-news__list {
+      grid-template-columns: 1fr;
+   }
+
+   .announcement-news__card {
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .announcement-news__card.reverse {
+      flex-direction: column;
+   }
+
+   .announcement-news__image img {
+      width: 120px;
+      height: 120px;
+   }
+}
+
+@media (max-width: 480px) {
+   .announcement-news__title {
+      font-size: 1.5rem;
+   }
+
+   .announcement-news__content h3 {
+      font-size: 1.2rem;
+   }
+
+   .announcement-news__content p {
+      font-size: 0.9rem;
+   }
+}

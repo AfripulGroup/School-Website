@@ -1,0 +1,123 @@
+.programs {
+   padding: 3rem 0;
+   background-color: #f9fafc;
+}
+
+.section-title {
+   text-align: center;
+   font-size: 2.5rem;
+   color: #004c97;
+   margin-bottom: 1.5rem;
+}
+
+.section-subtitle {
+   text-align: center;
+   font-size: 2rem;
+   color: #004c97;
+   margin-bottom: 1rem;
+}
+
+.programs__intro {
+   text-align: center;
+   font-size: 1.2rem;
+   color: #555;
+   margin-bottom: 2rem;
+}
+
+.programs__list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   justify-content: center;
+}
+
+.program-card {
+   background: #fff;
+   padding: 1.5rem;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   width: 270px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.program-card:hover {
+   transform: scale(1.05);
+   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.program-card__icon {
+   font-size: 3rem;
+   color: #ffcc00;
+   margin-bottom: 1rem;
+}
+
+.program-card__title {
+   font-size: 1.5rem;
+   color: #004c97;
+   margin-bottom: 0.5rem;
+}
+
+.program-card__description {
+   font-size: 1rem;
+   color: #555;
+   margin-bottom: 1rem;
+}
+
+.program-card__cta {
+   background-color: #004c97;
+   color: #fff;
+   border: none;
+   padding: 0.5rem 1.5rem;
+   border-radius: 5px;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.program-card__cta:hover {
+   background-color: #002d5b;
+}
+
+.curriculum-highlights,
+.age-group-eligibility {
+   margin-top: 3rem;
+}
+
+.highlights-grid,
+.eligibility-grid {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+   justify-content: center;
+}
+
+.highlight-card,
+.eligibility-card {
+   background: #fff;
+   padding: 1rem;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   width: 280px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlight-card:hover,
+.eligibility-card:hover {
+   transform: scale(1.05);
+   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-icon,
+.eligibility-icon {
+   font-size: 2.5rem;
+   color: #ffcc00;
+   margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+   .program-card {
+      width: 300px;
+   }
+}

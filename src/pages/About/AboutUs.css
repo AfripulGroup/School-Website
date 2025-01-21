@@ -1,0 +1,116 @@
+.section-title {
+   font-size: 2rem;
+   color: #004c97;
+   margin-bottom: 1rem;
+   text-align: center;
+}
+
+.mission-vision,
+.history,
+.leadership,
+.accreditations {
+   margin-bottom: 3rem;
+   padding: 1.5rem;
+   background-color: #f9fafc;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mission-vision__content,
+.history__content {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   margin-bottom: 1rem;
+}
+
+.icon-box {
+   background-color: #004c97;
+   padding: 1rem;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.mission-icon,
+.history-icon,
+.leader-icon {
+   font-size: 2rem;
+   color: #fff;
+}
+
+.leadership__list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+   justify-content: center;
+}
+
+.leader-card {
+   background: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   padding: 1.5rem;
+   max-width: 300px;
+   text-align: center;
+}
+
+.leader-image {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 50%;
+   margin-bottom: 1rem;
+}
+
+.leader-info h3 {
+   color: #004c97;
+   margin-bottom: 0.5rem;
+}
+
+.leader-role {
+   font-size: 1rem;
+   font-weight: bold;
+   color: #555;
+   margin-bottom: 0.5rem;
+}
+
+.accreditations__list {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.accreditations__item {
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   font-size: 1.2rem;
+   color: #333;
+   background: #fff;
+   padding: 1rem;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.accreditations__item:hover {
+   transform: scale(1.02);
+   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.accreditations__icon {
+   color: #004c97;
+   font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+   .leadership__list {
+      flex-direction: column;
+      align-items: center;
+   }
+}

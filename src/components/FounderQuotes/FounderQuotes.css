@@ -1,0 +1,51 @@
+.founder-quotes {
+   text-align: center;
+   margin: 3rem 0;
+   padding: 2rem;
+   background-color: #f0f4f8;
+}
+
+.founder-quotes__title {
+   font-size: 2rem;
+   color: #004c97;
+   margin-bottom: 1.5rem;
+}
+
+.founder-quotes__list {
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   flex-wrap: wrap;
+}
+
+.founder-quotes__item {
+   max-width: 300px;
+   background: #fff;
+   padding: 1.5rem;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.founder-quotes__item:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.quote-text {
+   font-size: 1.2rem;
+   color: #333;
+   margin-bottom: 1rem;
+}
+
+.quote-text .quote-icon {
+   font-size: 1.5rem;
+   color: #ffcc00;
+   margin: 0 10px;
+}
+
+.quote-author {
+   font-size: 1rem;
+   color: #004c97;
+   font-weight: bold;
+}
