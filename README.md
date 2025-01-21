@@ -1,7 +1,7 @@
 # Rockville Montessori School Website
 
 ## Project Overview
-The Rockville Montessori School Website is a modern, interactive, and responsive web platform designed to showcase the school’s programs, mission, and facilities. It provides essential information for prospective parents, current parents, and other stakeholders, featuring dynamic pages, secure access, and visually engaging content.  
+The Rockville Montessori School Website is a modern, interactive, and responsive web platform designed to showcase the school’s programs, mission, and facilities. It provides essential information for prospective parents, current parents, and other stakeholders, featuring dynamic pages, secure access, and visually engaging content.
 
 This project emphasizes accessibility, responsive design, and user experience, ensuring it caters to the diverse needs of its users.
 
