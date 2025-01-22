@@ -110,3 +110,4 @@ Navigate to the URL provided in the terminal (e.g., `http://localhost:5173`).
    - Save the settings and deploy.
    - Your live URL will be provided by Netlify.
 
+### Here is the Live Demo URL to the Site: https://rockville-montessori.netlify.app
