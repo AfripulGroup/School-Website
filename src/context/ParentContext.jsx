@@ -36,7 +36,8 @@ const ParentProvider = ({ children }) => {
    // Signup Parent
    const signup = (data) => {
       localStorage.setItem("parentSignupData", JSON.stringify(data));
-      navigate('/parent-portal');
+      setParentData(data);
+      navigate('/parent-dashboard');
    };
 
    // Logout Parent
